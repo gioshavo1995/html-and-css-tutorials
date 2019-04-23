@@ -1,7 +1,9 @@
-.link {
-    height: 100px;
-    width: 30px;
-    display: block;
+button {
     background-color: green;
+    display: block;
     padding: 10px;
+    margin-bottom: 10px;
+}
+button:last-of-type{
+    margin-bottom: 0;
 }
