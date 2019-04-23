@@ -1,5 +1,5 @@
-h1 {
-    font-size: 18px;
+.title {
+    font-size: 24px;
+    color: blue;
     text-align: center;
-    color: green;
-}
+  }
