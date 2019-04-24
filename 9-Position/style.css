@@ -6,28 +6,11 @@
 }
 
 .block1 {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-}
-
-.block2 {
-    position: absolute;
-    left: 10px;
-    bottom:  10px;
-}
-.block3 {
-    position: absolute;
-    right:  10px;
-    top: 10px;
-}
-.block4 {
-    position: absolute;
-    right:  10px;
-    bottom: 10px;
-}
-.block {
     background: white;
     width: 100px;
     height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
