@@ -1,16 +1,38 @@
 .wrap {
     position: relative;
-    width: 500px;
-    height: 500px;
-    background: BLACK;
+    width: 200px;
+    height: 200px;
+    background: bisque;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.block1 {
-    background: white;
-    width: 100px;
-    height: 100px;
+.badge {
+    border-radius: 50%;
+    background: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 0;
+    top: 0;
+    transform: translate(50%,-50%);
+}
+
+.label {
+    border-radius: 40px;
+    background: red;
+    color: white;
+    width: 30px;
+    padding: 0 5px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid white;
+    transform: translate(50%,-50%);
 }
