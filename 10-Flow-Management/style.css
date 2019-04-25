@@ -33,4 +33,20 @@ margin-bottom: 30px;
     float: left;
 }
 
+.left {
+    float: left;
+    width: 390px;
+}
 
+.right {
+    float: right;
+    width: 180px;
+}
+
+.left .col-1:nth-child(2) {
+    margin-right: 0;
+}
+
+.right .col-1 {
+    height: 330px;
+}
