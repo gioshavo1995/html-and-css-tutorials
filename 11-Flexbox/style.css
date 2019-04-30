@@ -15,9 +15,17 @@
     margin: auto;
     width: 600px;
 }
-
-.header,.col-1,.col-2,.col-3,.footer {
+.col-3 {
     flex-grow:1;
 }
+
+.col-1  {
+    flex-grow: 1;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
 
 
