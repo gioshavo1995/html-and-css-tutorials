@@ -9,6 +9,11 @@
     display: flex;
 }
 
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
