@@ -1,19 +1,83 @@
-.lobster {
-    font-family: "lobster";
- }
- .PTSans-Regular {
-    font-family: 'PT Sans';
- }
- .PTSans-Bold {
-    font-family: 'PT Sans';
-    font-weight: 700;
- }
- .PTSans-Italic {
-    font-family: 'PT Sans';
-    font-style: italic;
- }
- .PTSans-BoldItalic {
-    font-family: 'PT Sans';
-    font-style: italic;
-    font-weight: 700;
- }
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+main {
+   width: 680px;
+   margin: auto;
+   border: 1px solid #ECF0F1;
+   margin-top: 20px;
+}
+
+article {
+   padding: 20px;
+}
+
+article .poster {
+   width: 640px;
+   height: 350px;
+   background: #A1B1BC;
+   margin-bottom: 14px;
+}
+
+.content header{
+   border-bottom: 1px solid #ECF0F1;
+   padding-bottom: 13px;
+   margin-bottom: 13px;
+}
+
+.content header h3{
+   font-family: 'Lobster';
+   font-size: 24px;
+   color: #21C2F8;
+   line-height: 30px;
+   margin-bottom: 4px;
+}
+
+.content header p {
+   font-family: 'PT Sans';
+   font-size: 14px;
+   line-height: 30px;
+   color: #A1B1BC;
+   letter-spacing: -0.1px;
+}
+
+.content header p span::after {
+   content: "";
+   width: 1px;
+   height: 11px;
+   background: #A1B1BC;
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 13px;
+}
+
+.content header p span:last-child::after {
+   display: none;
+}
+
+.content .text p {
+   font-family: 'PT Sans';
+   font-size: 14px;
+   line-height: 24px;
+   color: #A1B1BC;
+   margin-bottom: 16px;
+   width: 101%;
+   word-spacing: -0.3px;
+   
+}
+
+
+
+.content .text a {
+   font-family: 'PT Sans';
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 24px;
+   color: #21C2F8;
+   text-decoration: none;
+}
+
+
