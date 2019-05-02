@@ -27,12 +27,18 @@ footer{
    display:  none;
 }
 .wrap ul li:first-child::after {
+display: block;
+}
+
+
+.wrap div ul li::after {
    content: "";
-    height: 3px;
-    width: 100%;
-    background: #343A47;
-    display: block;
-    margin: 10px 0;
+   height: 2px;
+   width: 100%;
+   background: #343A47;
+   display: block;
+   margin-top: 16px;
+   margin-bottom: 15px;
 }
 
 .wrap div ul {
@@ -44,19 +50,12 @@ footer{
    flex-direction: column;
 }
 
-.wrap div ul li::after {
-   content: "";
-   height: 3px;
-   width: 100%;
-   background: #343A47;
-   display: block;
-   margin: 10px 0;
-}
 
 
 
 footer .top{
    background: #222533;
+   padding-bottom: 98px;
 }
 footer .bottom{
    background: #171D22;
@@ -67,9 +66,10 @@ footer .bottom{
    font-size: 16px;
    line-height: 24px;
    color: white;
-   margin-top: 100px;
-   margin-bottom: 37px;
+   margin-top: 96px;
+   margin-bottom: 34px;
    text-transform: uppercase;
+   letter-spacing: 4.8px;
 }
 
 .top .wrap h3:after{
@@ -78,6 +78,7 @@ footer .bottom{
    height: 3px;
    width: 70px;
    display: block;
+   margin-top: 4px;
 }
 
 .wrap div ul li a {
@@ -106,8 +107,9 @@ footer .bottom{
    color: #A1B1BC;
    font-size: 14px;
    line-height: 24px;
-   margin-bottom: 20px;
-   margin-top: 17px;
+   margin-bottom: 13px;
+   margin-top: -2px;
+   margin-left: 1px;
 }
 
 .wrap .notes a {
@@ -116,19 +118,23 @@ footer .bottom{
    color: #1ABC9C;
    text-decoration: none;
    text-transform: uppercase;
+   margin-left: 1px;
+   font-size: 14px;
 }
 
 .bottom .wrap {
-   padding: 20px 0;
+   padding: 40px 0;
 }
 
 .bottom .wrap p{
    font-family: 'PT Sans';
    font-size: 15px;
    color: #A1B1BC;
+ 
 }
 
 .bottom .wrap a {
    color: #1ABC9C; 
+   text-decoration: none;
 }
 
